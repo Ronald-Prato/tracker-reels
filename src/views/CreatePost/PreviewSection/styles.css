@@ -1,0 +1,28 @@
+.preview-section-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-display-wrapper {
+  width: 400px;
+  position: relative;
+}
+
+.phone-display {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.phone-screen {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 380px;
+  height: calc(100% - 20px);
+}

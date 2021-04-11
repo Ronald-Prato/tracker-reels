@@ -1,0 +1,23 @@
+.textarea-label {
+  color: white;
+  margin: 0 0 5px 0;
+  font-size: 13px;
+}
+
+
+.custom-textarea {
+  width: 100%;
+  outline: none;
+  border: .5px solid rgba(0, 0, 0, .2);
+  padding: 8px 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 14px;
+  resize: none;
+  background: #323232;
+  color: rgba(255, 255, 255, .8);
+}
+
+.custom-textarea::placeholder {
+  color: rgba(255, 255, 255, .6);
+}

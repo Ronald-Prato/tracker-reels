@@ -1,0 +1,42 @@
+.gifs-list-wrapper {
+  margin-top: 10px;
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: rgba(0, 0, 0, .2);
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.gifs-list-wrapper::-webkit-scrollbar {
+  width: 10px;
+}
+.gifs-list-wrapper::-webkit-scrollbar-thumb {
+  background: #606060;
+  border: 3px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+}
+
+.single-gif {
+  max-width: 500px;
+  cursor: pointer;
+  transition: 150ms linear;
+}
+
+.single-gif:hover {
+  transform: scale(1.1);
+  border: 2px solid black;
+}
+
+.gif-loading-message,
+.gif-no-results-message,
+.gif-write-something-message {
+  width: 100%;
+  color: #606060;
+  width: 100%;
+  text-align: center;
+  margin-top: 130px;
+  font-size: 14px;
+}

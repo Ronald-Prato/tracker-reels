@@ -1,0 +1,54 @@
+.screen-wrapper {
+  width: 100%;
+  height: 100%;
+  background: #323232;
+  border-radius: 50px;
+  display: grid;
+  place-items: center;
+}
+
+.screen-preview-area {
+  padding: 20px 40px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 380px;
+  height: 91%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.preview-text-wrapper {
+  width: 100%;
+  overflow-wrap: break-word;
+}
+
+.preview-text-content {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.preview-gif-wrapper {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.preview-gif-content {
+  width: 300px;
+}
+
+.preview-category {
+  background: cornflowerblue;
+  font-weight: bolder;
+  padding: 5px 10px;
+  font-size: 13px;
+  color: white;
+  position: absolute;
+  border-radius: 4px;
+  top: 10px;
+  
+}

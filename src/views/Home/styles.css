@@ -1,0 +1,44 @@
+.main-wrapper {
+  width: 450px;
+  height: 820px;
+  border: 6px solid black;
+  border-radius: 10px;
+
+}
+
+.phone-prewview {
+  width: 450px;
+  height: 820px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.gifs-render {
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.post-preview {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: springgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-text {
+  margin: 0;
+  text-align: center;
+  max-width: 400px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.selected-gif {
+  max-width: 450px;
+}

@@ -1,0 +1,19 @@
+.custom-button {
+  outline: none;
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: 4px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, .2);
+}
+
+.primary {
+  background: #1fb84a;
+  border: none;
+  color: white;
+}
+
+.secondary {
+  color: #1fb84a;
+  border: 1px solid #1fb84a;
+  background: white;
+}
